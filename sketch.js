@@ -19,7 +19,7 @@ let bbLine = 0;
 
 function preload(){
   soundFormats('mp3');
-  song = loadSound('childmusic.mp3');
+  song = loadSound('train.mp3');
   loadImage('LDG_0.png');
   test[0] =loadImage('MDG.png');
   test[1] = loadImage('binhua.png'); //秉樺
@@ -58,6 +58,10 @@ function preload(){
   BB[12] = loadSound('05.mp3');
   BB[13] = loadSound('06.mp3');
 
+}
+
+function reload(){
+  
 }
 
 var LDG_like = [];
